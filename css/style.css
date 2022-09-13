@@ -37,9 +37,14 @@ Main Format
     max-width: 800px;
     margin: auto;
     background-color: white;
-    border-radius: 10px;
-    padding: 10px 50px;
+    border-radius: 0 0 10px 10px;
+    padding: 30px 50px 10px;
     margin-bottom: 5px;
+}
+
+.box {
+    padding: 10px 50px;
+    border-radius: 10px 10px 0;
 }
 
 /* -------
@@ -64,7 +69,7 @@ button {
 }
 
 /* -------
-Layout Cerchi
+Circles Layout 
 -------- */
 .circle {
     display: inline-block;
@@ -82,18 +87,19 @@ Layout Cerchi
     border-color: green;
 }
 
-.circle strong {
-    position: relative;
-    bottom: 3px;
-}
-
 .circle-cross {
     color: red;
     border-color: red;
 }
 
+.circle strong {
+    position: relative;
+    bottom: 3px;
+}
+
+
 /* -------
-Layout Tag
+Tag Layout 
 ------- */
 .tag {
     color: white;
@@ -105,7 +111,7 @@ Layout Tag
     bottom: 3px;
 }
 
-.tag-azzurro {
+.tag-blue {
     background-color: #45ABEA;
 }
 .tag-violet {
@@ -120,13 +126,13 @@ Layout Tag
 .tag-lime {
     background-color: #B0C926;
 }
-.tag-fuxia {
+.tag-purple {
     background-color: #D863A1
     ;
 }
 
 /* -------
-Layout Contenuto
+Content Section Layout 
 ------- */
 h2 {
     display: inline-block;
@@ -141,4 +147,5 @@ h3 {
 section {
     margin-bottom: 30px;
 }
+
 
