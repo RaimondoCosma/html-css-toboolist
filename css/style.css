@@ -29,3 +29,39 @@ h1 {
 div img {
     vertical-align: middle;
 }
+
+/* -------
+Main Format
+-------*/
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* -------
+Button Section
+------- */
+.box {
+    padding: 10px 50px;
+}
+
+button {
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#task {
+    color: white;
+    background-color: #45ABEA;
+}
+
+#add-section {
+    color: gray;
+    background-color: white;
+    border: 1px solid gray;
+}
+
