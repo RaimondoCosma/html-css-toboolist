@@ -64,16 +64,6 @@ button {
 }
 
 /* -------
-Sezione New Task
-------- */
-
-h2 {
-    display: inline-block;
-    margin-bottom: 10px;
-}
-
-
-/* -------
 Layout Cerchi
 -------- */
 .circle {
@@ -102,10 +92,9 @@ Layout Cerchi
     border-color: red;
 }
 
-h3 {
-    display: inline-block;
-}
-
+/* -------
+Layout Tag
+------- */
 .tag {
     color: white;
     font-weight: bold;
@@ -119,3 +108,37 @@ h3 {
 .tag-azzurro {
     background-color: #45ABEA;
 }
+.tag-violet {
+    background-color: #9C72E4;
+}
+.tag-green {
+    background-color: #64C0A9;
+}
+.tag-orange {
+    background-color: #F29E33;
+}
+.tag-lime {
+    background-color: #B0C926;
+}
+.tag-fuxia {
+    background-color: #D863A1
+    ;
+}
+
+/* -------
+Layout Contenuto
+------- */
+h2 {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+h3 {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
