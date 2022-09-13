@@ -38,15 +38,13 @@ Main Format
     margin: auto;
     background-color: white;
     border-radius: 10px;
+    padding: 10px 50px;
+    margin-bottom: 5px;
 }
 
 /* -------
 Button Section
 ------- */
-.box {
-    padding: 10px 50px;
-}
-
 button {
     border: none;
     font-size: 16px;
@@ -65,3 +63,59 @@ button {
     border: 1px solid gray;
 }
 
+/* -------
+Sezione New Task
+------- */
+
+h2 {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+
+/* -------
+Layout Cerchi
+-------- */
+.circle {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid black;
+    text-align: center;
+    position: relative;
+    top: 3px;
+}
+
+.circle-check {
+    color: green;
+    border-color: green;
+}
+
+.circle strong {
+    position: relative;
+    bottom: 3px;
+}
+
+.circle-cross {
+    color: red;
+    border-color: red;
+}
+
+h3 {
+    display: inline-block;
+}
+
+.tag {
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    position: relative;
+    bottom: 3px;
+}
+
+.tag-azzurro {
+    background-color: #45ABEA;
+}
