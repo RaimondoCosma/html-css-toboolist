@@ -1,5 +1,31 @@
+/* -------
+Format
+------- */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F6F8F9;
+}
+
+/* ------- 
+Header
+------- */
+header {
+    background-color: white;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+div img {
+    vertical-align: middle;
 }
