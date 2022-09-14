@@ -31,19 +31,18 @@
                 <section>
                     <div>
                         <span>&#9660</span>
-                        <h2>New Task</h2>
+                        <h2>New Task</h2> <!--Queste sezioni semanticamente sarebbe corretto trattarle come liste-->
                     </div>
                     <div>
                         <div class="circle circle-check">
                             <strong>&check;</strong>
                         </div>
-                        <h3>Quarterly Newsletter</h3>
+                        <h3>Quarterly Newsletter</h3> <!--Non bisogna trattarli come titoli ma nel caso con dei div o anche uno span-->
                         <span class="tag tag-blue">Editorial</span>
                     </div>
                 </section>
-                <!-- /Sezione New Task -->
-                <!-- Sezione Today -->
-                <section>
+                <!-- /Sezione New Task -->    <!--Il selettore avanzato section:not(lastchild) avrebbe fatto la sua porca figura-->
+                                                                                                        <section>
                     <div>
                         <span>&#9660</span>
                         <h2>Today</h2>

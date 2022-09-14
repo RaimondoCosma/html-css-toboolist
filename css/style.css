@@ -50,19 +50,21 @@ Main Format
 /* -------
 Button Section
 ------- */
-button {
+button {              /*Rischioso utilizzare il tag meglio assegnare una blasse generale .btn */
     border: none;
     font-size: 16px;
     padding: 10px;
     border-radius: 5px;
+    cursor: pointer;
+    font-family: inherit;
 }
 
-#task {
+#task {                /*meglio non utilizzare il nome del bottone e in questo caso è meglio assegnare una classe non id*/
     color: white;
     background-color: #45ABEA;
 }
 
-#add-section {
+#add-section {         /*meglio non utilizzare il nome del bottone e in questo caso è meglio assegnare una classe non id*/
     color: gray;
     background-color: white;
     border: 1px solid gray;
@@ -78,7 +80,7 @@ Circles Layout
     border-radius: 50%;
     border: 2px solid black;
     text-align: center;
-    position: relative;
+    position: relative;   /*line-height: 20px; centra verticalmente il testo mettendo la stessa altezza del contenitore */
     top: 3px;
 }
 
